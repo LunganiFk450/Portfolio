@@ -85,6 +85,25 @@
     background-size: 60px 60px;
     pointer-events: none; z-index: 0; opacity: 0.25;
   }
+
+
+  .btn-secondary-outline {
+    display: inline-block;
+    padding: 12px 18px;
+    margin: 8px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary-outline:hover {
+    background-color: #333;
+    color: white;
+    transform: translateY(-2px);
+}
  
   /* ── GLOW ORBS ─────────────────────────────────────────────── */
   .orb {
@@ -490,6 +509,8 @@
         <div class="hero-actions">
           <a href="#projects" class="btn-primary">View My Work</a>
           <a href="https://github.com/LunganiFk450" target="_blank" class="btn-ghost">GitHub</a>
+          <a href="Icon/Final_Academic_record.pdf" download id="downloadResumeBtn" class="btn-secondary-outline"><b>Download Resume</b></a>
+          <a href="Icon/Academic_Transcript.pdf" download id="downloadTranscriptBtn" class="btn-secondary-outline"><b>Academic Transcript</b></a>
         </div>
         <div class="hero-stats">
           <div>
@@ -532,7 +553,7 @@
           <div class="ln"><span class="ln-num">14</span><span>&nbsp;&nbsp;<span class="kw">def</span> <span class="fn">get_location</span>(self):</span></div>
           <div class="ln"><span class="ln-num">15</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">return</span> <span class="str">"Mtubatuba, KZN 🇿🇦"</span></span></div>
           <div class="ln"><span class="ln-num">16</span><span></span></div>
-          <div class="ln"><span class="ln-num">17</span><span><span class="cm"># Ready to ship 🚀</span><span class="cursor-blink"></span></span></div>
+          <div class="ln"><span class="ln-num">17</span><span><span class="cm"># Ready to ship...</span><span class="cursor-blink"></span></span></div>
         </div>
       </div>
     </div>
@@ -623,7 +644,7 @@
       <div class="project-card featured">
         <div>
           <div class="project-num">01 — Featured</div>
-          <span class="project-icon">🧠</span>
+          <span class="project-icon"></span>
           <div class="project-title">SA Banknote Recognition System</div>
           <p class="project-desc">A machine learning image classification system trained to identify South African currency denominations. End-to-end pipeline: data collection, model architecture, training, evaluation, and deployment. Real-world AI applied to financial instruments.</p>
           <div class="project-stack">
@@ -633,14 +654,14 @@
             <span class="stack-tag">NumPy</span>
           </div>
         </div>
-        <div style="display:flex;align-items:center;justify-content:center;font-size:6rem;opacity:0.15;font-family:monospace;">💴</div>
+        <div style="display:flex;align-items:center;justify-content:center;font-size:6rem;opacity:0.15;font-family:monospace;"></div>
         <span class="project-arrow">↗</span>
       </div>
  
       <!-- Card 2 -->
       <div class="project-card">
         <div class="project-num">02</div>
-        <span class="project-icon">📈</span>
+        <span class="project-icon"></span>
         <div class="project-title">Time Series Electricity Forecasting</div>
         <p class="project-desc">ARIMA-style forecasting engine for electricity consumption. Full pipeline: ingestion, cleaning, decomposition, seasonality analysis, and predictive modelling.</p>
         <div class="project-stack">
@@ -655,7 +676,7 @@
       <!-- Card 3 -->
       <div class="project-card">
         <div class="project-num">03</div>
-        <span class="project-icon">🛒</span>
+        <span class="project-icon"></span>
         <div class="project-title">E-Commerce Platform</div>
         <p class="project-desc">Full-stack web app with product catalogue, cart, checkout, user authentication, and order management. REST principles, relational DB, and responsive UI.</p>
         <div class="project-stack">
@@ -670,11 +691,11 @@
       <!-- Card 4 -->
       <div class="project-card">
         <div class="project-num">04</div>
-        <span class="project-icon">🏪</span>
+        <span class="project-icon"></span>
         <div class="project-title">Point of Sale & Inventory System</div>
-        <p class="project-desc">Multi-module Java POS system with real-time inventory tracking. Built on core OOP principles: encapsulation, inheritance, polymorphism, abstraction.</p>
+        <p class="project-desc">Multi-module C#.NET POS system with real-time inventory tracking. Built on core OOP principles: encapsulation, inheritance, polymorphism, abstraction.</p>
         <div class="project-stack">
-          <span class="stack-tag">Java</span>
+          <span class="stack-tag">C#.NET</span>
           <span class="stack-tag">OOP</span>
           <span class="stack-tag">SQL</span>
         </div>
@@ -684,7 +705,7 @@
       <!-- Card 5 -->
       <div class="project-card">
         <div class="project-num">05</div>
-        <span class="project-icon">🎮</span>
+        <span class="project-icon"></span>
         <div class="project-title">Interactive Quiz Game</div>
         <p class="project-desc">UI-driven C++ quiz game with multiple-choice answer selection, real-time score tracking, and instant feedback. Clean state management and user input handling.</p>
         <div class="project-stack">
